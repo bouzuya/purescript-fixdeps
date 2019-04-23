@@ -1,16 +1,30 @@
 {
-  "name": "purescript-fixdeps",
+  "name": "@bouzuya/purescript-fixdeps",
   "description": "fix deps in spago.dhall",
   "version": "0.0.0",
   "author": "bouzuya <m@bouzuya.net> (https://bouzuya.net/)",
-  "bin": "bin/purescript-fixdeps",
+  "bin": {
+    "purescript-fixdeps": "bin/purescript-fixdeps"
+  },
+  "bugs": {
+    "url": "https://github.com/bouzuya/purescript-fixdeps/issues"
+  },
+  "dependencies": {},
   "devDependencies": {
     "purescript": "^0.12.5",
     "spago": "^0.7.5"
   },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/bouzuya/purescript-fixdeps#readme",
   "keywords": [],
   "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bouzuya/purescript-fixdeps.git"
+  },
   "scripts": {
     "build": "spago make-module",
     "spago": "spago",
