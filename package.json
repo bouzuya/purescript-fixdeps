@@ -1,0 +1,19 @@
+{
+  "name": "purescript-fixdeps",
+  "description": "fix deps in spago.dhall",
+  "version": "0.0.0",
+  "author": "bouzuya <m@bouzuya.net> (https://bouzuya.net/)",
+  "bin": "bin/purescript-fixdeps",
+  "devDependencies": {
+    "purescript": "^0.12.5",
+    "spago": "^0.7.5"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "spago make-module",
+    "spago": "spago",
+    "test": "spago test"
+  }
+}
