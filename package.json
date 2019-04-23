@@ -17,6 +17,9 @@
   "directories": {
     "test": "test"
   },
+  "files": [
+    "bin"
+  ],
   "homepage": "https://github.com/bouzuya/purescript-fixdeps#readme",
   "keywords": [],
   "license": "MIT",
