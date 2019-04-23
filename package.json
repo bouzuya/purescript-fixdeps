@@ -1,7 +1,7 @@
 {
   "name": "@bouzuya/purescript-fixdeps",
   "description": "fix deps in spago.dhall",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "bouzuya <m@bouzuya.net> (https://bouzuya.net/)",
   "bin": {
     "purescript-fixdeps": "bin/purescript-fixdeps"
