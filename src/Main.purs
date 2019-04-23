@@ -4,14 +4,13 @@ module Main
 
 import Prelude
 
-import Data.Array (scanl)
 import Data.Array as Array
 import Data.Array as Foldable
 import Data.Either as Either
 import Data.Maybe as Maybe
 import Data.Set (Set)
 import Data.Set as Set
-import Data.Tuple (Tuple(..))
+import Data.Tuple (Tuple)
 import Data.Tuple as Tuple
 import Effect (Effect)
 import Effect.Aff (Aff)
